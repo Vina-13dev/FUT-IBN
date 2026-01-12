@@ -5,15 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FUT IBN - Peladinha da Igreja</title>
   
-  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&display=swap" rel="stylesheet">
   
-  <!-- React e Babel -->
   <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -30,7 +27,6 @@
       overflow-x: hidden;
     }
     
-    /* Animações */
     @keyframes fadeIn {
       from {
         opacity: 0;
@@ -46,7 +42,6 @@
       animation: fadeIn 0.5s ease-out;
     }
     
-    /* Scrollbar customizada */
     ::-webkit-scrollbar {
       width: 10px;
     }
@@ -68,7 +63,7 @@
 <body>
   <div id="root"></div>
 
-  <script type="text/babel" src="fut-ibn-app.jsx"></script>
+  <script type="text/babel" src="./fut-ibn-app.jsx"></script>
   
   <script type="text/babel">
     const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -76,3 +71,4 @@
   </script>
 </body>
 </html>
+```
